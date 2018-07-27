@@ -1,0 +1,818 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    background-color: #2874f0;
+   
+    
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    top: 0px;
+    
+    
+}
+#header .topbar ul li a{
+    list-style: none;
+   color: #f0f0f0;
+    text-decoration: none;
+   font-size: 12px;
+    
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+}
+#header .topbar li{
+    list-style: none;
+    display: inline-block;
+   padding: 10px;
+}
+#header .topbar{
+    text-align: right;
+   
+}
+#header .topbar ul{
+    margin: 0px;
+    padding: 0px;
+}
+.innerheader .logo{
+    float: left;
+}
+ .searchbox input[type="text"]{
+    width: 750px;
+    height: 35px;
+     padding: 0px 15px;
+     
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px; 
+     margin-left: 10px;
+}
+.searchbox .fa {
+    padding:  30px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+        background-color: #ffe11b;
+    border: 1px solid #ffe11b;
+    margin-left: -4px;
+   
+
+}
+.searchbox{
+    float: left;
+}
+#header .cart {
+    width: 8%;
+   background-color: #2469d9;
+    padding: 11px;
+}
+.cart{
+    float: left;
+    margin-left: 10px;
+    border-radius: 2px;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.23), inset 1px 1px 0 0 hsla(0,0%,100%,.2);
+    
+}
+#header .cart .fa {
+     color: #fff;
+    display: inline-block;
+    margin-right: 10px;
+}
+ #header .cart span {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500
+}
+  .products li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+  .products li a{
+    text-decoration: none;
+    text-transform: uppercase;
+     color: #f0f0f0;
+    font-weight: bolder;
+    font-size: 14px;
+         box-sizing: border-box;
+    
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+}
+} 
+  .container .products{
+    text-align: center;
+    
+}
+ .container .products ul{
+    margin-left: 50px;
+   
+}
+.container .products ul li a:hover{
+    color: #ffe11b;
+    
+}
+.dropdown{
+    position: absolute;
+    margin-left: -30px;
+  display: none;
+    z-index: 10;
+    width: 70%;
+
+}
+.column li a{
+    color: black;
+    text-transform: capitalize;
+}
+.dropdown .column li{
+    display: block;
+}
+.dropdown .column{
+    float: left;
+    width: 20%;
+    background-color: white;
+    
+}
+.dropdown .column ul{
+   position: relative;
+     margin-left: -50px;
+  
+}
+ #header .products ul li:hover .dropdown{
+    display: block;
+}
+.goquick li{
+    display: inline;
+    padding: 0px 5px;
+    position: relative;
+    text-transform: capitalize;
+}
+.goquick li a{
+    text-decoration: none;
+    color: black;
+}
+.goquick{
+   margin-left: 100px;
+
+
+
+}
+.goquick li:after{
+    content: "";
+  border-right: 1px solid black;
+    margin-left: 10px;
+    
+}
+.goquick li:first-child:after{
+   border: none;
+   
+}
+.section1{
+    position: relative;
+    height: 280px;
+}
+.section1 img{
+    width: 100%;
+    height: 280px;   
+}
+.section1 .rightarrow{
+    background-image: url(../image/next.png);
+    right: 1%;
+    
+}
+.section1 .leftarrow{
+    background-image: url(../image/previous.png);
+   left: 1%;
+    
+}
+.section1 .arrow .rightarrow,.leftarrow{
+    top: 40%;
+    position: absolute;
+    height: 64px;
+    width: 64px;
+}
+ 
+#section2 .mix .discount{
+    float: left;
+    width: 80%
+}
+#section2 .mix .extra{
+    float: left;
+    width: 17%;
+}
+.mix{
+    margin-top: 20px;
+}
+.mix .discount .distext{
+    float: left;
+    width: 19%;
+   height: 325px;
+     background: linear-gradient( rgb(255,255,255) 0%, rgb(255,255,255) 40%, rgba(255,27,227,0.13) 100%);
+}
+.mix .discount .discountproducts{
+    float: left;
+   width: 80%;
+}
+.mix .discount .discountproducts li{
+    display: inline-block;
+    width: 25%;
+        padding: 0px 15px;
+}
+.mix .discount li .image{
+    width: 124%;
+}
+.mix .discount li .image img{
+    width: 100%;
+}
+
+.mix .extra .image{
+    width: 94%
+}
+
+.mix .extra .image img{
+    width: 100%;
+}
+
+.mix .distext h2{
+    font-size: 35px;
+    margin-top: 75px;
+    margin-left: 20px;
+        font-weight: 400;
+       
+}
+.mix .distext .button1{
+    margin-left: 30px;
+   
+    background: #2874f0;
+    padding: 11px 13px;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 1px 1px #2874f0;
+    font-weight: 500;
+}
+.mix .discountproduct li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content .offers .text{
+    float: left;
+    width: 16%; 
+    margin-top: 70px;
+    
+    background: linear-gradient( rgb(255,255,255) 0%, rgb(255,255,255) 40%, rgba(255,27,227,0.13) 100%);
+    height: 268px;
+    
+ 
+}
+#content .offers .text h3{
+    font-size: 30px;
+margin-left: 37px;
+    font-weight: 400;
+}
+#content .offers .secproducts{
+    float: left;
+    width: 84%;
+    margin-top: 30px;
+   
+}
+#content .secproducts ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  
+}
+
+#content li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+#content .secproducts ul li{
+  width: 20%;
+    display: inline-block;
+    padding: 0px 25px;
+   
+
+}
+.offers{
+    margin-top: 15px;
+    
+    
+    margin-right: 14px;
+   margin-left: 8px;
+   
+   
+}
+    
+
+
+#content li img{
+    width: 100%;
+}
+#content li .imageref,.imagecool{
+    width: 40%;
+}
+#content .offers li .image {
+    max-height: 200px;
+    min-height: 120px;
+}
+li #green{
+       color: #388e3c;
+    padding: 5px 0px;
+}
+#content  .text .button2{
+    text-transform: uppercase;
+        background: #2874f0;
+    text-decoration: none;
+    color: white;;
+    padding: 10px;
+   margin-left: 56px;
+    box-sizing: border-box;
+        background-color: rgb(40, 116, 240);
+    border-radius: 5px 5px 5px 5px;
+   
+}
+#content .secproducts li h4{
+        font-weight: 500;
+    font-size: 15px;
+}
+#content li del{
+           color: #535353;
+}
+#content .offers{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section4 .brands .mobiles ul li a{
+    display: block;
+}
+
+#section4 .brands .mobiles ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#section4 .brands .mobiles ul li{
+    display: inline-block;
+    width: 30%;
+    padding: 0px 18px;
+}
+#section4 .brands .mobiles ul li .imagesmobile{
+    width: 100%;
+}
+#section4 .brands .mobiles ul li .imagesmobile img
+{
+    width: 100%;
+}
+#section4 .text h5{
+        font-size: 20px;
+    line-height: 32px;
+       font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;    
+    font-weight: 500;
+    margin-left: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section5 .bargains .musicproducts li a{
+    display: block;
+        text-decoration: none;
+    color: black;
+        font-size: 14px;
+    font-weight: 500;
+}
+#section5 .bargains .musicproducts ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#section5 .bargains .text{
+    width: 15%; 
+        float: left;
+    margin-top: 60px;
+    margin-left: 20px;
+    height: 259px;
+     background: linear-gradient( rgb(255,255,255) 0%, rgb(255,255,255) 40%, rgba(255,27,227,0.13) 100%);
+}
+#section5 .bargains .text h4{
+        font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+#section5 .bargains .musicproducts{
+    width: 80%;
+    float: left;
+}
+#section5 .bargains .musicproducts li{
+    width: 16%;
+        display: inline-block;
+    padding: 0px 19px;
+}
+#section5 .bargains .musicproducts li .image{
+    width: 100%;
+}
+#section5 .bargains .musicproducts li .image img{
+    width: 100%;
+}
+#section5 .bargains .musicproducts li .imagebarbie{
+    width: 50%
+}
+#section5 .bargains .musicproducts li .imagebarbie img{
+    width: 100%;
+}
+#section5 .bargains .musicproducts li .imagewatch{
+    width: 80%;
+}
+#section5 .bargains .musicproducts li .imagewatch img{
+    width: 100%;
+}
+#section5 .bargains .musicproducts li .imageflute{
+    width: 80%;
+}
+#section5 .bargains .musicproducts li .imageflute img{
+    width: 100%;
+}
+#section5 .bargains{
+    padding-top: 45px;
+}
+#section5 .bargains .text .button3{
+    background: #2874f0;
+    padding: 11px 13px;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 1px 1px #2874f0;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section6 .television .text{
+    width: 15%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+    background: linear-gradient( rgb(255,255,255) 0%, rgb(255,255,255) 40%, rgba(255,27,227,0.13) 100%);
+    height: 250px;
+}
+#section6 .television .text h4{
+        font-size: 30px;
+    line-height: 1.38;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+#section6 .television .text .button4{
+    margin-left: 26px;
+     background: #2874f0;
+    padding: 11px 13px;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 1px 1px #2874f0;
+    font-weight: 500;
+    
+}
+#section6 .television .telproducts{
+    width: 80%;
+    float: left;
+    display: table;
+    margin-top: 20px;
+}
+#section6 .television .telproducts li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+#section6 .television .telproducts ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+#section6 .television .telproducts li{
+       width: 20%;
+    display: inline-block;
+    display: table-cell;
+    padding: 0px 25px;
+}
+#section6 .television{
+        display: inline-block;
+    margin-top: 30px
+}
+#section6 .television .telproducts li .image{
+    width: 100%
+}
+#section6 .television .telproducts li .image img{
+    width: 100%;
+}
+#section6 .television .telproducts li  .products .imagetel{
+    width: 94%;
+}
+#section6 .television .telproducts li .products .imagetel img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section7 .beauty .beautyproducts ul li a{
+    display: block;
+}
+#section7 .beauty .beautyproducts ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#section7 .beauty .text{
+    float: left;
+    width: 15%;
+     display: table-cell;
+    text-align: center;
+        margin-top: 37px;
+    margin-left: 20px;
+    height: 280px;
+      background: linear-gradient( rgb(255,255,255) 0%, rgb(255,255,255) 40%, rgba(255,27,227,0.13) 100%);
+}
+#section7 .beauty .text .button5{
+    background: #2874f0;
+    padding: 11px 13px;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 1px 1px #2874f0;
+    font-weight: 500;
+    
+}
+#section7 .beauty .text h4{
+        font-size: 38px;
+    line-height: 1.38;
+    font-weight: 400;
+}
+#section7 .beauty .beautyproducts{
+    float: left;
+    width: 80%;
+    display: table-cell;
+    text-align: center;
+}
+#section7 .beauty .beautyproducts ul li{
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+   
+}
+#section7 .beauty .beautyproducts ul li .image{
+    width: 85%;
+}
+#section7 .beauty{
+        display: inline-block;
+    padding-top: 20px;
+    display: table;
+}
+#section7 .beauty .beautyproducts ul li  img{
+    width: 100%;
+    
+}
+#section7 .beauty .beautyproducts ul li .imagetrim{
+    width: 25%;
+    margin-left: 80px;
+}
+
+#section7 .beauty .beautyproducts ul li .imagemakeup{
+    width: 40%;
+        margin-left: 50px;
+}
+
+#section7 .beauty .beautyproducts ul li .imagedryer{
+    width: 60%;
+}
+
+#section7 .beauty .beautyproducts ul li .imagebeardo{
+    width: 45%;
+     margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+#section8 .recently .headphones ul li a{
+    display: block;
+}
+#section8 .recently .headphones ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#section8 .recently{
+   display: inline-block;
+    margin-top: 50px;
+    
+}
+#section8 .recently .text h4{
+    display: table-cell;
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.38;
+    font-weight: 400;
+   
+}
+#section8 .recently .text{
+    float: left;
+    width: 20%;
+    display: table;
+    margin-top: 50px;
+    
+}
+#section8 .recently .headphones{
+    float: left;
+    width: 80%;
+       
+}
+#section8 .recently .headphones .products{
+    width: 25%;
+    margin-left: 50px;
+}
+#section8 .recently .headphones .image{
+    width: 60%;
+}
+#section8 .recently .headphones .image img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+#lastsec .column ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#lastsec .column{
+    float: left;
+    width: 33%;
+   
+}
+#lastsec .column ul li a{
+    font-size: 11px;
+    text-decoration: none;
+    
+    font-family: Roboto,Arial,sans-serif;
+    
+}
+#lastsec .column ul li {
+    padding-bottom: 7px;
+    border-bottom: 1px solid gray;
+        border-bottom: 1px solid #e4e4e4;
+    width: 70%;
+}
+#lastsec .information{
+    display: inline-block;
+    width: 89%;
+    margin-left: 130px;
+}
+
+
+
+
+#lastsec2 .facility .track{
+    float: left;
+    width: 30%;
+    padding-right: 20px;
+    padding-left: 10px;
+        float: left;
+   ;
+    padding: 10px;
+    border-right: 1px solid #e4e4e4;
+}
+#lastsec2 .facility {
+    margin-top: 35px;
+   
+    width: 80%;
+    margin-left: 126px;
+        border-bottom: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+}
+
+#lastsec2 .facility .track .image{
+    float: left;
+}
+#lastsec2 .facility .track h5{
+    font-size: 15px;
+    color: #333;
+    font-weight: bolder;
+    text-transform: uppercase;
+            font-family: Roboto,Arial,sans-serif;
+}
+#lastsec2 .facility .track .text{
+    float: left
+}

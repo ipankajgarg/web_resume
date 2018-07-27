@@ -1,0 +1,182 @@
+var mboxCurrent = mboxFactories.get('default').get('New_homepage_Hero',0);mboxCurrent.setOffer(new mboxOfferAjax('<div id=\"mboxClick-New_homepage_Hero\" onclick=\"mboxFactories.get(\'default\').getSignaler().signal(\'click\', \'New_homepage_Hero-clicked\', \'mboxTarget=75949\')\"><!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"Generator\" content=\"EditPlus\u00AE\">\n<meta name=\"Author\" content=\"\">\n<meta name=\"Keywords\" content=\"\">\n<meta name=\"Description\" content=\"\">\n<title>Document<\/title>\n<\/head>\n<body>\n\n<style>\ntextarea {\noverflow: auto\n}\noptgroup {\nfont-weight: bold\n}\ntable {\nborder-collapse: collapse;\nborder-spacing: 0\n}\ntd, th {\npadding: 0\n}\n* {\n-webkit-box-sizing: border-box;\n-moz-box-sizing: border-box;\nbox-sizing: border-box\n}\n*:before, *:after {\n-webkit-box-sizing: border-box;\n-moz-box-sizing: border-box;\nbox-sizing: border-box\n}\nhtml {\nfont-size: 10px;\n-webkit-tap-highlight-color: transparent\n}\nbody {\nfont-family: \"lato-regular\", Arial, Helvetica, sans-serif;\nfont-size: 12px;\nline-height: 14px;\ncolor: #3f3f3f;\nbackground-color: #fff\n}\ninput, button, select, textarea {\nfont-family: inherit;\nfont-size: inherit;\nline-height: inherit\n}\na {\ncolor: #0055b7;\ntext-decoration: none\n}\na:hover, a:focus {\ncolor: #0055b7;\ntext-decoration: none\n}\na:focus {\noutline: thin dotted;\noutline: 5px auto -webkit-focus-ring-color;\noutline-offset: -2px\n}\np{margin: 0px; padding: 0px;}\n.clearfix:before, .clearfix:after {\ncontent: \" \";\ndisplay: table; }\n\n.clearfix:after {\nclear: both; }\n\n.owl-carousel {\ndisplay: none;\nwidth: 100%;\n-webkit-tap-highlight-color: transparent;\nposition: relative;\nz-index: 1\n}\n.owl-carousel .owl-stage {\nposition: relative;\n-ms-touch-action: pan-Y\n}\n.owl-carousel .owl-stage:after {\ncontent: \".\";\ndisplay: block;\nclear: both;\nvisibility: hidden;\nline-height: 0;\nheight: 0\n}\n.owl-carousel .owl-stage-outer {\nposition: relative;\noverflow: hidden;\n-webkit-transform: translate3d(0px, 0px, 0px)\n}\n.owl-carousel .owl-item {\nposition: relative;\nmin-height: 1px;\nfloat: left;\n-webkit-backface-visibility: hidden;\n-webkit-tap-highlight-color: transparent;\n-webkit-touch-callout: none\n}\n.owl-carousel .owl-item img {\ndisplay: block;\nwidth: 100%;\n-webkit-transform-style: preserve-3d\n}\n.owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled {\ndisplay: none\n}\n.owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-dot {\ncursor: pointer;\ncursor: hand;\n-webkit-user-select: none;\n-khtml-user-select: none;\n-moz-user-select: none;\n-ms-user-select: none;\nuser-select: none\n}\n.owl-carousel.owl-loaded {\ndisplay: block\n}\n.owl-carousel.owl-loading {\nopacity: 0;\ndisplay: block\n}\n.owl-carousel.owl-hidden {\nopacity: 0\n}\n.owl-carousel.owl-refresh .owl-item {\ndisplay: none\n}\n.owl-carousel.owl-drag .owl-item {\n-webkit-user-select: none;\n-moz-user-select: none;\n-ms-user-select: none;\nuser-select: none\n}\n.owl-carousel.owl-grab {\ncursor: move;\ncursor: grab\n}\n.owl-carousel.owl-rtl {\ndirection: rtl\n}\n.owl-carousel.owl-rtl .owl-item {\nfloat: right\n}\n.no-js .owl-carousel {\ndisplay: block\n}\n.owl-carousel .animated {\nanimation-duration: 1000ms;\nanimation-fill-mode: both\n}\n.owl-carousel .owl-animated-in {\nz-index: 0\n}\n.owl-carousel .owl-animated-out {\nz-index: 1\n}\n.owl-carousel .fadeOut {\nanimation-name: fadeOut\n}\n@keyframes fadeOut {\n0% {\nopacity:1\n}\n100% {\nopacity:0\n}\n}\n.owl-height {\ntransition: height 500ms ease-in-out\n}\n.owl-carousel .owl-item .owl-lazy {\nopacity: 0;\ntransition: opacity 400ms ease\n}\n.owl-carousel .owl-item img.owl-lazy {\ntransform-style: preserve-3d\n}\n.owl-carousel .owl-video-wrapper {\nposition: relative;\nheight: 100%;\nbackground: #000\n}\n.owl-carousel .owl-video-play-icon {\nposition: absolute;\nheight: 80px;\nwidth: 80px;\nleft: 50%;\ntop: 50%;\nmargin-left: -40px;\nmargin-top: -40px;\nbackground: url(\"owl.video.play.png\") no-repeat;\ncursor: pointer;\nz-index: 1;\n-webkit-backface-visibility: hidden;\ntransition: transform 100ms ease\n}\n.owl-carousel .owl-video-play-icon:hover {\ntransform: scale(1.3, 1.3)\n}\n.owl-carousel .owl-video-playing .owl-video-tn, .owl-carousel .owl-video-playing .owl-video-play-icon {\ndisplay: none\n}\n.owl-carousel .owl-video-tn {\nopacity: 0;\nheight: 100%;\nbackground-position: center center;\nbackground-repeat: no-repeat;\nbackground-size: contain;\ntransition: opacity 400ms ease\n}\n.owl-carousel .owl-video-frame {\nposition: relative;\nz-index: 1;\nheight: 100%;\nwidth: 100%\n}\n\n\n.hp-banner {\nwidth: 1150px;\nheight: 350px;\nmargin: 15px auto 0;\npadding: 0;\n\n}\n.hp-banner .item {\nfloat: left;\n}\n.hp-banner .owl-stage {\npadding: 40px 0\n}\n.hp-banner .owl-stage-outer, .hp-banner .owl-stage {\nheight: 321px;    overflow: hidden;\n}\n.hp-banner .owl-stage-outer {\npadding: 0 0 0 1px;overflow: hidden;    margin: 0 34px;\n}\n.hp-banner .dealCard {\nmargin-right: 0px;\nbackground: #fff;\nheight: 280px;\nfont-weight: 500;\nposition: relative;\npadding: 40px 35px;\nfont-family: \"lato-regular\", Arial, Helvetica, sans-serif;\nfont-size: 16px;\n\ntransition: all 0.3s ease-in-out;\n-webkit-transition: all 0.3s ease-in-out;\n-moz-transition: all 0.3s ease-in-out;\n-o-transition: all 0.3s ease-in-out;\nfloat: left;\nbox-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.3);\nborder: none;\n-webkit-font-smoothing: subpixel-antialiased;\n}\n.hp-banner .dealCard--egg-blue {\nbackground: #fff;\n}\n.hp-banner .dealCard--pale-grey {\nbackground: #F2ECF7\n}\n.hp-banner .dealCard--lightWhite {\nbackground: #f0f0f0\n}\n.hp-banner .dealCard--pale-green {\nbackground: #ebfcda\n}\n.hp-banner .dealCard--tan {\nbackground: #fbfbdc\n}\n.hp-banner .dealCard--pink {\nbackground: #fbe8e7\n}\n.hp-banner .dealCard h4 {\nfont-family: \"lato-regular\", Arial, Helvetica, sans-serif;\ncolor: #0b0a15;\nfont-size: 14px;\nline-height: 18px;\nfont-weight: normal;\nmargin: 15px 0;\n}\n.hp-banner .dealCard:hover h4{ color: #fff; margin:15px 0 15px 0;}\n.hp-banner .dealCard__inst {\nfont-family: \"lato-regular\", Arial, Helvetica, sans-serif;\ncolor: #979797;\nmargin-top: 10px;\nfont-size: 12px;\ntext-transform: uppercase\n}\n.hp-banner .dealCard:hover .dealCard__inst{color: #fff;    margin-bottom: 15px;}\n.hp-banner .dealCard img.dealCard__featureImg {\nposition: absolute;\nheight: 140px;\nbottom: 0;\nleft: 0px;\nwidth: 100%;\nopacity: 1;\n}\n.hp-banner .dealCard--rightBottomImg img.dealCard__featureImg {\nbottom: 0;\nright: 0;\nwidth: 100%\n}\n.hp-banner .dealCard .dt__tags {\nopacity: 0\n}\n.hp-banner .dealCard__viewAndSeatInfo {\nopacity: 0;\nfont-size: 12px;\nfont-family: \"lato-regular\", Arial, Helvetica, sans-serif;\ncolor: #323232;\nmargin-top: 25p\n}\n.hp-banner .dealCard:hover .dealCard__viewAndSeatInfo{color: #fff;}\n.hp-banner .dealCard__viewAndSeatInfo span {\ndisplay: inline-block;\nline-height: 18px;\n}\n\n.coupon_code{color: #fff; font-size: 14px; line-height: 18px;    margin: 0 0 15px 0; padding: 0px; display: none;}\n.coupon_code p{margin: 0px;}\n.dealCard:hover .coupon_code{display: block;}\n.book_now{border: 1px solid #fff; padding: 7px 15px 0px 15px; height: 27px; font-size: 13px; color: #fff; margin: 0 5px 10px 0; float: left;}\n.book_now:visited{color: #fff; }\n.book_now:focus{color: #fff !important; }\n.book_now:hover{color: #fff; background: #009970;}\n.filling_fast{background: url(\"images\/filling-fast.png\") no-repeat; display: inline-block; width: 13px; height: 12px;}\n.hp-banner .dealCard__viewAndSeatInfo{margin-top: 0px;}\n.hp-banner .dealCard__viewAndSeatInfo span:nth-child(2) {\nmargin-left: 30px\n}\n.hp-banner .dealCard h5 {\nfont-size: 14px;\ncolor: #0b0a15;\nfont-family: \"lato-regular\", Arial, Helvetica, sans-serif;\nmargin: 38px 0 10px 0;\nopacity: 0\n}\n.hp-banner .dealCard__trending {\nopacity: 0;\nposition: absolute;\ncolor: #323232;\nleft: 35px;\nbottom: 35px\n}\n.hp-banner .dealCard__trending .o-i-trending {\nmargin-right: 10px;\nvertical-align: middle\n}\n.hp-banner .dealCard__label {\nposition: absolute;\nright: 15px;\ntop: 15px;\nborder-radius: 8px;\nfont-family: \"lato-medium\", Arial, Helvetica, sans-serif;\nfont-size: 14px;\nfont-weight: 500;\ncolor: #00a19c;\nborder: solid 1px #c8c8c8;\npadding: 3px 10px 3px 10px\n}\n.hp-banner .dealCard__label--valuePlus {\ncolor: #d78909\n}\n.hp-banner .dealCard__appfest {\ntext-align: center;\ncolor: rgba(15,157,192,0.9)\n}\n.hp-banner .dealCard__appfest .time {\nfont-size: 72px;\nline-height: 72px;\nfont-family: \"lato-bold\", Arial, Helvetica, sans-serif\n}\n.hp-banner .dealCard__appfest table {\nmargin: 0 auto;\nmargin-top: 20px\n}\n.hp-banner .dealCard__appfest table td {\nborder-right: 2px solid rgba(15,157,191,0.36);\npadding: 0 10px 10px 10px;\nwidth: 100px\n}\n.hp-banner .dealCard__appfest table td:last-child {\nborder: none\n}\n.hp-banner .dealCard__appfestCaption {\nfont-size: 16px;\ncolor: #000;\nfont-family: \"lato-bold\", Arial, Helvetica, sans-serif;\nmargin-top: 40px\n}\n.hp-banner .dealCard__appfestInfo {\ntext-align: center;\nopacity: 0\n}\n.hp-banner .dealCard__appfestInfo h4 {\nfont-family: \"lato-medium\", Arial, Helvetica, sans-serif;\nfont-size: 16px;\nfont-weight: 500;\ncolor: #000000;\nline-height: 16px\n}\n.hp-banner .dealCard__appfestInfo table {\nwidth: 100%;\nmargin-top: 60px\n}\n.hp-banner .dealCard__appfestInfo table th {\nfont-family: \"lato-regular\", Arial, Helvetica, sans-serif;\nfont-size: 16px;\nfont-weight: normal;\ncolor: #0b0a15;\nline-height: 16px;\npadding-bottom: 20px;\nborder: none\n}\n.hp-banner .dealCard__appfestInfo table td {\nfont-family: \"lato-regular\", Arial, Helvetica, sans-serif;\nfont-size: 14px;\nfont-weight: normal;\ncolor: #323232;\nline-height: 16px;\nborder: none;\nvertical-align: top\n}\n.hp-banner .dealCard .o-i-fwd-link {\nopacity: 0;\nbottom: 20px;\nright: 20px;\nposition: absolute\n}\n.hp-banner .dealCard__afterHover {\nmargin-top: 35px;\nopacity: 0\n}\n.hp-banner .dealCard:hover {\nbackground: radial-gradient(circle at 53% 76%, #35ae50, #2678c6);\nfilter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=\'#35ae50\', endColorstr=\'#2678c6\');\ntransform: scale(1.02);\n-webkit-transform: scale(1.02);\n-o-transform: scale(1.02);\n-moz-transform: scale(1.02);\nbox-shadow: 0 -2px 12px 0 rgba(0, 0, 0, 0.11);\nz-index: 3;\nborder: none;\ncursor: default;\n}\n.hp-banner .dealCard:hover img.dealCard__featureImg {\nz-index: -1;\nopacity: 0.1 !important;\n}\n.hp-banner .dealCard:hover .appfest__hideOnHover {\ndisplay: none\n}\n.hp-banner .dealCard:hover h5, .hp-banner .dealCard:hover .dealCard__trending, .hp-banner .dealCard:hover .dealCard__viewAndSeatInfo, .hp-banner .dealCard:hover .o-i-fwd-link, .hp-banner .dealCard:hover .dealCard__afterHover, .hp-banner .dealCard:hover .dt__tags, .hp-banner .dealCard:hover .dealCard__appfestInfo {\nopacity: 1;\n}\n.hp-banner .dealCard.oneBySix {\nwidth: 180px;\npadding: 1px 10px 0 20px;\n}\n.hp-banner .dealCard.oneBySix .dealCard__trending {\nleft: 10px;\nbottom: 20px\n}\n.hp-banner .dealCard.oneBySix .dealCard__afterHover {\nwidth: 90px\n}\n.dealCard.twoBySix{\nbackground: #fff;\n}\n.hp-banner .dealCard.twoBySix {\nwidth: 360px; padding:0px 20px;\n}\n\n.hp-banner .dealCard.twoBySix .dealCard__viewAndSeatInfo {\nmargin-top: 20px\n}\n.hp-banner .dealCard.twoBySix .dealCard__viewAndSeatInfo span:nth-child(2) {\nmargin-left: 29px;\n}\n.hp-banner .dealCard.threeBySix {\nwidth: 540px;\npadding: 0 20px;\n}\n\n.hp-banner .dealCard.threeBySix .dealCard__viewAndSeatInfo {\nmargin-top: 25px;\n}\n.hp-banner .dealCard.threeBySix .dealCard__viewAndSeatInfo span:nth-child(2) {\nmargin-left: 25px;\n}\n.hp-banner .dealCard.fourBySix {\nwidth: 720px; padding: 0 20px;\n}\n.hp-banner .dealCard.fiveBySix {\nwidth: 900px;\npadding: 0 20px;\n}\n.hp-banner .dealCard.fiveBySix h4, .hp-banner .dealCard.fiveBySix .dealCard__inst {\nmax-width: 370px\n}\n.hp-banner .dealCard.fiveBySix .dealCard__label {\nright: auto;\nleft: 15px\n}\n.hp-banner .dealCard.fiveBySix h5 {\nmargin-top: 85px\n}\n.hp-banner .dealCard.fiveBySix:hover .dealCard__label {\nright: 15px;\nleft: auto\n}\n.hp-banner .dealCard.sixBySix {\nwidth: 1080px\n}\n.hp-banner .dealCard.dealCard--rightBottomImg img.dealCard__featureImg {\nwidth: 260px;\nheight: 280px;\nleft: auto;\nright: 0;\nbottom: 0\n}\n.hp-banner .dealCard.dealCard--rightBottomImg.threeBySix img.dealCard__featureImg {\nwidth: 220px\n}\n.hp-banner .dealCard.dealCard--rightBottomImg.threeBySix h4, .hp-banner .dealCard.dealCard--rightBottomImg.threeBySix .dealCard__inst {\nmax-width: 224px\n}\n.hp-banner .dealCard.dealCard--rightBottomImg.fourBySix img.dealCard__featureImg {\nwidth: 330px\n}\n.hp-banner .dealCard.dealCard--rightBottomImg.fourBySix h4, .hp-banner .dealCard.dealCard--rightBottomImg.fourBySix .dealCard__inst {\nmax-width: 224px\n}\n.hp-banner .dealCard.dealCard--rightBottomImg.fiveBySix img.dealCard__featureImg {\nwidth: 440px\n}\n.hp-banner .dealCard.dealCard--rightBottomImg.sixBySix img.dealCard__featureImg {\nwidth: 500px\n}\n.hp-banner .dealCard.dealCard--rightBottomImg.sixBySix.dealCard__appfest {\ntext-align: left\n}\n.hp-banner .dealCard.dealCard--rightBottomImg.sixBySix.dealCard__appfest table.appfest__hideOnHover {\nmargin: 20px 0 0 0\n}\n.hp-banner .nav-next, .hp-banner .nav-prev {\nborder: 1px solid;\nborder-color: transparent transparent #251641 #251641;\nwidth: 24px;\nheight: 24px;\ndisplay: inline-block;\nposition: absolute;\ntop: 45%;\ncursor: pointer\n}\n.hp-banner .nav-prev {\nleft: -20px;\ntransform: rotate(45deg)\n}\n.hp-banner .nav-next {\nright: -20px;\ntransform: rotate(-135deg)\n}\n\n\n.append_bottom3 {\nmargin-bottom: 3px\n}\n.append_bottom4 {\nmargin-bottom: 4px\n}\n.append_bottom5 {\nmargin-bottom: 5px\n}\n.append_bottom6 {\nmargin-bottom: 6px\n}\n.append_bottom7 {\nmargin-bottom: 7px\n}\n.append_bottom8 {\nmargin-bottom: 8px\n}\n.append_bottom9 {\nmargin-bottom: 9px\n}\n.append_bottom10 {\nmargin-bottom: 10px\n}\n.append_bottom11 {\nmargin-bottom: 11px\n}\n.append_bottom12 {\nmargin-bottom: 12px\n}\n.append_bottom13 {\nmargin-bottom: 13px\n}\n.append_bottom14 {\nmargin-bottom: 14px\n}\n.append_bottom15 {\nmargin-bottom: 15px\n}\n.append_bottom16 {\nmargin-bottom: 16px\n}\n.append_bottom17 {\nmargin-bottom: 17px\n}\n.append_bottom18 {\nmargin-bottom: 18px\n}\n.append_bottom19 {\nmargin-bottom: 19px\n}\n.append_bottom20 {\nmargin-bottom: 20px\n}\n.append_bottom21 {\nmargin-bottom: 21px\n}\n.append_bottom22 {\nmargin-bottom: 22px\n}\n.append_bottom23 {\nmargin-bottom: 23px\n}\n.append_bottom24 {\nmargin-bottom: 24px\n}\n.append_bottom25 {\nmargin-bottom: 25px\n}\n\n.append_bottom50 {\nmargin-bottom: 50px\n}\n\n.marL5 {\nmargin-left: 5px\n}\n.marR5 {\nmargin-right: 5px !important\n}\n.marR8 {\nmargin-right: 8px !important\n}\n.make_relative {\nposition: relative\n}\n.make_block {\ndisplay: inline-block\n}\n.make_blockElm {\ndisplay: block\n}\n.inlineB {\ndisplay: inline-block\n}\n.section_box {\nbackground: #fff;\nborder: solid 1px #d4d4d4;\nborder-radius: 3px;\npadding: 10px\n}\n.offer {\nbackground: #e4fbfa;\nmin-height: 800px;\ntext-align: center;\nfont-size: 14px;\npadding: 10px 0\n}\n.shadow_genrator {\n-moz-box-shadow: 0 0 3px rgba(0,0,0,0.1);\n-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1);\nbox-shadow: 0 0 3px rgba(0,0,0,0.1)\n}\n.hp-btn_outer{position: absolute;  bottom: 9px; z-index: -1;}\n\n\n<\/style>\n\n<div class=\"container\">\n<div class=\"hp-banner owl-theme\" id=\"hp-banner\">\n\n\n\n\n<div class=\"item\" style=\"width:180px\">\n<section class=\"dealCard  oneBySix\">\n<h4><b>Zero Cancellation Charge on Flights<\/b><br><br>100% Moneyback Guarantee if you cancel you ticket @ Rs 379 only!<\/h4>\n\n<img alt=\"dealBGImage\" class=\"dealCard__featureImg owl-lazy\" src=\"\" data-src=\"\/\/imgak.mmtcdn.com\/mi8\/images\/slideshow\/180x140-zero-cancellation.jpg\" \/>\n\n\n<div class=\"hp-btn_outer\">\n\n<p>\n<a href=\"\/\/makemytrip.com\/promos\/zerocalcellation-dom-03042017.html?intid=HPLP_hero_DF_Sale_CA_03032017_new\" target=\"blank\" class=\"book_now\">Know More<\/a>\n<\/p>\n<\/div>\n\n<\/section>\n<\/div>\n\n\n\n<div class=\"item\" style=\"width:360px\">\n<section class=\"dealCard  twoBySix\" >\n<h4><b>NEVER BEFORE OFFER<\/b><br><br>Upto <b>Rs. 25,000 cashback<\/b> on International Flights<br><br>Coupon: <b>FLYNEW<\/b><\/h4>\n\n<img alt=\"dealBGImage\" class=\"dealCard__featureImg owl-lazy\" src=\"\" data-src=\"\/\/imgak.mmtcdn.com\/mi8\/images\/slideshow\/IF2-360x140-NHP-1217.jpg\" \/>\n\n<div class=\"coupon_code\">\n<p>Also now pay 20% (upto Rs. 2,500) of the booking amount using your MakeMyTrip Wallet balance.<\/p>\n<\/div>\n\n<div class=\"hp-btn_outer\">\n<p>\n<a href=\"\/\/www.makemytrip.com\/promotion\/includes\/if-flynew-15112016.html?intid=HPLP_hero_IF_Live_FLYNEW_new\" target=\"_blank\" class=\"book_now\">Book Now<\/a>\n<\/p>\n\n<\/div>\n\n<\/section>\n<\/div>\n\n\n<div class=\"item\" style=\"width:360px\">\n<section class=\"dealCard  twoBySix\" >\n<h4><b>Best Deals on International Hotels!<\/b><br><br>Up to <b>60% Off*  Grab it Now!<\/h4>\n\n<img alt=\"dealBGImage\" class=\"dealCard__featureImg owl-lazy\" src=\"\" data-src=\"\/\/imgak.mmtcdn.com\/mi8\/images\/slideshow\/IH2-360x140-NHP-1217.jpg\" \/>\n\n<div class=\"coupon_code\">\n<p>Book from the below most searched destinations<\/p>\n<\/div>\n<div class=\"hp-btn_outer\">\n<p>\n<a href=\"\/\/www.makemytrip.com\/mmthtl\/site\/hotels\/search?checkin=date_5&amp;checkout=date_7&city=DMAL&country=MV&area=&roomStayQualifier=2e0e&searchText=Maldives&intid=HPLP_Hero_IHTL_Sale_Maldives_02032017_new\" target=\"_blank\" class=\"book_now\">Maldives<\/a> <a href=\"\/\/www.makemytrip.com\/mmthtl\/site\/hotels\/search?checkin=date_5&amp;checkout=date_7&city=ABAL&country=ID&area=&roomStayQualifier=2e0e&searchText=Bali&intid=HPLP_Hero_IHTL_Sale_Bali_02032017_new\" target=\"_blank\" class=\"book_now\">Bali<\/a> <a href=\"\/\/www.makemytrip.com\/mmthtl\/site\/hotels\/search?checkin=date_5&amp;checkout=date_7&city=CMB&country=LK&area=&roomStayQualifier=2e0e&searchText=Colombo&intid=HPLP_Hero_IHTL_Sale_Colombo_02032017_new\" target=\"_blank\" class=\"book_now\">Colombo<\/a> <a href=\"\/\/www.makemytrip.com\/mmthtl\/site\/hotels\/search?checkin=date_5&amp;checkout=date_7&city=THP&country=BT&area=&roomStayQualifier=2e0e&searchText=Thimphu&intid=HPLP_Hero_IHTL_Sale_Thimphu_02032017_new\" target=\"blank\" class=\"book_now\">Thimphu<\/a> <a href=\"\/\/www.makemytrip.com\/mmthtl\/site\/hotels\/search?checkin=date_5&amp;checkout=date_7&city=-1353149&country=HK&area=&roomStayQualifier=2e0e&searchText=Hong+Kong&intid=HPLP_Hero_IHTL_Sale_HongKong_02032017_new\" target=\"blank\" class=\"book_now\">Hong Kong<\/a>\n<\/p>\n<p>\n<a href=\"\/\/www.makemytrip.com\/mmthtl\/site\/hotels\/search?checkin=date_5&amp;checkout=date_7&city=ZKL&country=MY&area=&roomStayQualifier=2e0e&searchText=Kuala+Lumpur&intid=HPLP_Hero_IHTL_Sale_KualaLumpur_02032017_new\" target=\"_blank\" class=\"book_now\">Kuala Lumpur<\/a> <a href=\"\/\/www.makemytrip.com\/mmthtl\/site\/hotels\/search?checkin=date_5&amp;checkout=date_7&city=DUBW&country=AE&area=&roomStayQualifier=2e0e&searchText=Dubai&intid=HPLP_Hero_IHTL_Sale_Dubai_02032017_new\" target=\"_blank\" class=\"book_now\">Dubai<\/a> <a href=\"\/\/www.makemytrip.com\/mmthtl\/site\/hotels\/search?checkin=date_5&amp;checkout=date_7&city=-3242432&country=TH&area=&roomStayQualifier=2e0e&searchText=Pattaya&intid=HPLP_Hero_IHTL_Sale_Pattaya_02032017_new\" target=\"blank\" class=\"book_now\">Pattaya<\/a> <a href=\"\/\/www.makemytrip.com\/mmthtl\/site\/hotels\/search?checkin=date_5&amp;checkout=date_7&city=MARI&country=MU&area=&roomStayQualifier=2e0e&searchText=Mauritius&intid=HPLP_Hero_IHTL_Sale_Mauritius_02032017_new\" target=\"blank\" class=\"book_now\">Mauritius<\/a> <a href=\"\/\/www.makemytrip.com\/mmthtl\/site\/hotels\/search?checkin=date_5&amp;checkout=date_7&city=AKL1&country=NZ&area=&roomStayQualifier=2e0e&searchText=Auckland&intid=HPLP_Hero_IHTL_Sale_Auckland_02032017_new\" target=\"blank\" class=\"book_now\">Auckland<\/a>\n<\/p>\n\n<\/div>\n\n<\/section>\n<\/div>\n\n\n<div class=\"item\" style=\"width:360px\">\n<section class=\"dealCard  twoBySix\" >\n<h4>INTRODUCTORY OFFER!<br><br><b>Flat 50% Off on select homestays<\/b><\/h4>\n\n<img alt=\"dealBGImage\" class=\"dealCard__featureImg owl-lazy\" src=\"\" data-src=\"\/\/imgak.mmtcdn.com\/mi8\/images\/slideshow\/360X140_RS01_07042017.jpg\" \/>\n\n<div class=\"coupon_code\">\n<p>Book Private Villas, Apartments, Cottages and more.<\/p>\n<\/div>\n\n\n<div class=\"hp-btn_outer\">\n<p>\n<a href=\"\/\/homestays.makemytrip.com\/search\/collection\/79?utm_source=mmt&utm_medium=hotel_carousel&utm_campaign=IntroOffer&intid=HPLP_Hero_RS_Sale_07042017_new\" target=\"_blank\" class=\"book_now\">Snowy Mountains<\/a> <a href=\"\/\/homestays.makemytrip.com\/search\/collection\/81?utm_source=mmt&utm_medium=hotel_carousel&utm_campaign=IntroOffer&intid=HPLP_Hero_RS_Sale_07042017_new\" target=\"blank\" class=\"book_now\">Southern Hills<\/a>\n<\/p>\n<p>\n<a href=\"\/\/homestays.makemytrip.com\/search\/collection\/83?utm_source=mmt&utm_medium=hotel_carousel&utm_campaign=IntroOffer&intid=HPLP_Hero_RS_Sale_07042017_new\" target=\"blank\" class=\"book_now\">Business Cities<\/a> <a href=\"\/\/homestays.makemytrip.com\/search\/collection\/82?utm_source=mmt&utm_medium=hotel_carousel&utm_campaign=IntroOffer&intid=HPLP_Hero_RS_Sale_07042017_new\" target=\"blank\" class=\"book_now\">Best Beaches<\/a>\n<\/p>\n<\/div>\n\n<\/section>\n<\/div>\n\n\n<div class=\"item\" style=\"width:360px\">\n<!-- Starts: Example of THREE BY SIX Card -->\n<section class=\"dealCard twoBySix\">\n<h4><b>Crazy Deals on Summer Holiday Packages. Plan it Now!<\/b><br><br><b>Upto 30% Off*<\/b><\/h4>\n\n<img alt=\"dealBGImage\" class=\"dealCard__featureImg owl-lazy\" src=\"\" data-src=\"\/\/imgak.mmtcdn.com\/mi8\/images\/slideshow\/DH2-360x140-NHP-1217.jpg\" \/>\n\n\n<div class=\"hp-btn_outer\">\n<p>\n<a href=\"\/\/www.makemytrip.com\/holidays\/india\/search?dest=andaman&channel=ONSITE&intid=HPLP_hero_DOM_Andaman_22032017_new\" target=\"_blank\" class=\"book_now\">Andaman<\/a> <a href=\"\/\/www.makemytrip.com\/holidays\/international\/search?dest=kerala&channel=ONSITE&intid=HPLP_hero_DOM_Kerala_22032017_new\" target=\"blank\" class=\"book_now\">Kerala<\/a> <a href=\"\/\/www.makemytrip.com\/holidays\/international\/search?dest=bhutan&channel=ONSITE&intid=HPLP_hero_DOM_Bhutan_22032017_new\" target=\"_blank\" class=\"book_now\">Bhutan<\/a> <a href=\"\/\/www.makemytrip.com\/holidays\/international\/search?dest=srilanka&channel=ONSITE&intid=HPLP_hero_DOM_Srilanka_22032017_new\" target=\"_blank\" class=\"book_now\">Srilanka<\/a>\n<\/p>\n<p>\n<a href=\"\/\/www.makemytrip.com\/holidays\/international\/search?dest=north+east&channel=ONSITE&intid=HPLP_hero_DOM_NorthEast_22032017_new\" target=\"_blank\" class=\"book_now\">North East<\/a> <a href=\"\/\/www.makemytrip.com\/holidays\/international\/search?dest=bali&channel=ONSITE&intid=HPLP_hero_OBT_Bali_22032017_new\" target=\"blank\" class=\"book_now\">Bali<\/a> <a href=\"\/\/www.makemytrip.com\/holidays\/international\/search?dest=thailand&channel=ONSITE&intid=HPLP_hero_OBT_Thailand_22032017_new\" target=\"blank\" class=\"book_now\">Thailand<\/a> <a href=\"\/\/www.makemytrip.com\/holidays\/international\/search?dest=malaysia&channel=ONSITE&intid=HPLP_hero_OBT_Malaysia_22032017_new\" target=\"_blank\" class=\"book_now\">Malaysia<\/a> <a href=\"\/\/www.makemytrip.com\/holidays\/international\/search?dest=singapore&channel=ONSITE&intid=HPLP_hero_OBT_Singapore_22032017_new\" target=\"_blank\" class=\"book_now\">Singapore<\/a> <a href=\"\/\/www.makemytrip.com\/holidays\/international\/search?dest=hongkong&channel=ONSITE&intid=HPLP_hero_OBT_HongKong_22032017_new\" target=\"_blank\" class=\"book_now\">Hong Kong<\/a> <a href=\"\/\/www.makemytrip.com\/holidays\/international\/search?dest=mauritius&channel=ONSITE&intid=HPLP_hero_OBT_Mauritius_22032017_new\" target=\"_blank\" class=\"book_now\">Mauritius<\/a>\n<\/p>\n<\/div>\n<\/section>\n<!-- Ends: Example of THREE BY SIX Card -->\n<\/div>\n\n\n<\/div>\n\n\n\n<\/div>\n\n\n<\/body>\n<\/html><\/div>\n'));mboxCurrent.getOffer().setOnLoad(function() {
+	/*For all image loading at the time of carousal initialize*/
+		   $('.hp-banner').on('initialized.owl.carousel', function(event) {
+				$('.owl-item.active img').prop('src',function() {
+    				return $(this).attr('data-src');
+				});
+			});
+
+	$('.hp-banner').owlCarousel({
+		margin:0,
+		items:4,
+		autoWidth:true,
+		lazyLoad:true,
+		nav: true,
+loop:true,
+
+	
+		navText: ['<span class="nav-prev"></span>','<span class="nav-next"></span>'],
+
+	}).on('changed.owl.carousel', function(event) {
+
+
+
+		/*Load next three image*/
+		   			var currIndex = $(this).find('.owl-item.active').last().index();
+					var prefetchLimit = 3;
+					var itemsToBeLoaded = currIndex + prefetchLimit;
+					for(i=currIndex;i<=itemsToBeLoaded;i++){
+						var imgsrc = $('.hp-banner').find('.owl-item').eq(i).find('img').attr('data-src');
+						$('.hp-banner').find('.owl-item').eq(i).find('img').attr('src',imgsrc);
+					}
+
+	});
+
+
+(function() {
+
+/*mboxTrack() & mboxTrackLink & mboxTrackDefer v4 ==>Mbox.js Extra Javascript*/var mboxTrack=function(mbox,params){var m,u,i,f=mboxFactoryDefault;if(f.isEnabled()){if(f.getMboxes().length()>0){m=f.getMboxes().getById(0);u=m.getURL().replace("mbox="+escape(m.getName()),"mbox="+mbox).replace("/undefined","/ajax").replace("mboxPage="+f.getPageId(),"mboxPage="+mboxGenerateId())+'&'+params,i=new Image();i.style.display='none';i.src=u;document.body.appendChild(i)}else{mboxTrackDefer(mbox,params)}}},mboxTrackDefer=function(mbox,params){var f=mboxFactoryDefault;if(f.isEnabled()){mboxFactoryDefault.getSignaler().signal(mbox,mbox+'&'+params)}},mboxTrackLink=function(mbox,params,url){mboxTrack(mbox,params);setTimeout("location='"+url+"'",500)};
+
+function checkCookieAndSetProfile() {
+
+	if(read_cookie("hotelVisit") != null) {
+		mboxTrack("mmt_tnt_profile_set_mbox", "profile.hotelcookiepresent=yes");
+	}
+	else {
+		console.log("No hotelVisit cookie found!");
+	}
+
+}
+
+function read_cookie(key)
+{
+    var result;
+    return (result = new RegExp('(?:^|; )' + encodeURIComponent(key) + '=([^;]*)').exec(document.cookie)) ? (result[1]) : null;
+}
+
+if (window.addEventListener) {
+	window.addEventListener("load", checkCookieAndSetProfile, false);
+}
+else if (window.attachEvent) {
+	window.attachEvent("onload", checkCookieAndSetProfile);
+}
+
+
+})();
+
+
+/*T&T to SiteCat v4 ==> Response Plugin*/
+
+window.s_tnt=window.s_tnt||'',tntVal='75949:0:0,';
+if (window.s_tnt.indexOf(tntVal)==-1) {
+	window.s_tnt+=tntVal
+
+}
+
+
+
+(function() {
+
+/*mboxTrack() & mboxTrackLink & mboxTrackDefer v4 ==>Mbox.js Extra Javascript*/var mboxTrack=function(mbox,params){var m,u,i,f=mboxFactoryDefault;if(f.isEnabled()){if(f.getMboxes().length()>0){m=f.getMboxes().getById(0);u=m.getURL().replace("mbox="+escape(m.getName()),"mbox="+mbox).replace("/undefined","/ajax").replace("mboxPage="+f.getPageId(),"mboxPage="+mboxGenerateId())+'&'+params,i=new Image();i.style.display='none';i.src=u;document.body.appendChild(i)}else{mboxTrackDefer(mbox,params)}}},mboxTrackDefer=function(mbox,params){var f=mboxFactoryDefault;if(f.isEnabled()){mboxFactoryDefault.getSignaler().signal(mbox,mbox+'&'+params)}},mboxTrackLink=function(mbox,params,url){mboxTrack(mbox,params);setTimeout("location='"+url+"'",500)};
+
+function checkCookieAndSetProfile() {
+	
+	var cookieVal3 = read_cookie("ref_id");
+	
+	if(cookieVal3 != null) {
+		
+		// Cookie will have one of these values, DF, IF, DHTL, IHTL, DOM, OBT
+		
+		mboxTrack("mmt_tnt_profile_set_mbox", "profile.Sbicookiepresent=" + cookieVal3);
+		
+	}
+	else {
+		console.log("No ref_id cookie found!");
+	}
+
+}
+
+function read_cookie(key)
+{
+    var result;
+    return (result = new RegExp('(?:^|; )' + encodeURIComponent(key) + '=([^;]*)').exec(document.cookie)) ? (result[1]) : null;
+}
+
+if (window.addEventListener) {
+	window.addEventListener("load", checkCookieAndSetProfile, false);
+}
+else if (window.attachEvent) {
+	window.attachEvent("onload", checkCookieAndSetProfile);
+}
+
+
+})();
+
+
+/*T&T Metadata v3 ==>Response Plugin*/
+window.ttMETA=(typeof(window.ttMETA)!="undefined")?window.ttMETA:[];window.ttMETA.push({"CampaignName":"New_HPLP","CampaignId":"75949","RecipeName":"HPLP","RecipeId":"0","OfferId":"147446","OfferName":"New_HPLP","MboxName":"New_homepage_Hero"});
+
+        //function used to check date
+        function checkmmtDate() {
+            if (typeof bookingInfo != 'undefined') {
+                if (bookingInfo.mmtId && bookingInfo.mmtId != '') {
+                    var tempDate = bookingInfo.bookedJrnys[0].travelDt.split("/");
+                    var travelDate = new Date(tempDate[2], tempDate[1], tempDate[0]);
+                    var q = new Date();
+                    var m = q.getMonth();
+                    var d = q.getDate();
+                    var y = q.getFullYear();
+                    var currentDate = new Date(d, m, y);
+                    if (travelDate > currentDate) {
+                        var mboxTrack = mboxFactoryDefault.getMboxes().get("profileParameters");
+                        if (mboxTrack.length() == 0) {
+                            var d = document.createElement("div");
+                            d.id = "mboxTrack_div";
+                            document.body.appendChild(d);
+                            mboxDefine("mboxTrack_div", "profileParameters");
+                            mboxUpdate("profileParameters", "profile.mmtid=" + bookingInfo.mmtId);
+                            mboxUpdate("profileParameters", "profile.origin=" + bookingInfo.bookedJrnys[0].origin);
+                            mboxUpdate("profileParameters", "profile.destination=" + bookingInfo.bookedJrnys[0].destination);
+                            mboxUpdate("profileParameters", "profile.travelDate=" + bookingInfo.bookedJrnys[0].travelDt);
+                            console.log('');
+                        }
+                    } else {
+                        var mboxTrack = mboxFactoryDefault.getMboxes().get("profileParameters");
+                        if (mboxTrack.length() == 0) {
+                            var d = document.createElement("div");
+                            d.id = "mboxTrack_div";
+                            document.body.appendChild(d);
+                            mboxDefine("mboxTrack_div", "profileParameters");
+                            mboxUpdate("profileParameters", "profile.mmtid=false");
+                            mboxUpdate("profileParameters", "profile.origin=false");
+                            mboxUpdate("profileParameters", "profile.destination=false");
+                            mboxUpdate("profileParameters", "profile.travelDate=false");
+                        }
+                    }
+                } else {
+                    var mboxTrack = mboxFactoryDefault.getMboxes().get("profileParameters");
+                    if (mboxTrack.length() == 0) {
+                        var d = document.createElement("div");
+                        d.id = "mboxTrack_div";
+                        document.body.appendChild(d);
+                        mboxDefine("mboxTrack_div", "profileParameters");
+                        mboxUpdate("profileParameters", "profile.mmtid=false");
+                        mboxUpdate("profileParameters", "profile.origin=false");
+                        mboxUpdate("profileParameters", "profile.destination=false");
+                        mboxUpdate("profileParameters", "profile.travelDate=false");
+                    }
+                }
+            }
+
+        }
+
+        function jQueryIsLoaded() {
+            if (typeof jQuery !== "undefined") {
+                checkmmtDate();
+
+            } else {
+                setTimeout(jQueryIsLoaded, 50);
+            }
+        }
+        jQueryIsLoaded();
+    });mboxCurrent.loaded();

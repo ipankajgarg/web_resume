@@ -1,0 +1,68 @@
+var mboxCurrent = mboxFactories.get('default').get('HPLP_Topbar_New',0);mboxCurrent.setOffer(new mboxOfferAjax('\n'));mboxCurrent.getOffer().setOnLoad(function() {
+/*T&T Metadata v3 ==>Response Plugin*/
+window.ttMETA=(typeof(window.ttMETA)!="undefined")?window.ttMETA:[];window.ttMETA.push({"CampaignName":"","CampaignId":"","RecipeName":"","RecipeId":"","OfferId":"","OfferName":"","MboxName":"HPLP_Topbar_New"});
+
+        //function used to check date
+        function checkmmtDate() {
+            if (typeof bookingInfo != 'undefined') {
+                if (bookingInfo.mmtId && bookingInfo.mmtId != '') {
+                    var tempDate = bookingInfo.bookedJrnys[0].travelDt.split("/");
+                    var travelDate = new Date(tempDate[2], tempDate[1], tempDate[0]);
+                    var q = new Date();
+                    var m = q.getMonth();
+                    var d = q.getDate();
+                    var y = q.getFullYear();
+                    var currentDate = new Date(d, m, y);
+                    if (travelDate > currentDate) {
+                        var mboxTrack = mboxFactoryDefault.getMboxes().get("profileParameters");
+                        if (mboxTrack.length() == 0) {
+                            var d = document.createElement("div");
+                            d.id = "mboxTrack_div";
+                            document.body.appendChild(d);
+                            mboxDefine("mboxTrack_div", "profileParameters");
+                            mboxUpdate("profileParameters", "profile.mmtid=" + bookingInfo.mmtId);
+                            mboxUpdate("profileParameters", "profile.origin=" + bookingInfo.bookedJrnys[0].origin);
+                            mboxUpdate("profileParameters", "profile.destination=" + bookingInfo.bookedJrnys[0].destination);
+                            mboxUpdate("profileParameters", "profile.travelDate=" + bookingInfo.bookedJrnys[0].travelDt);
+                            console.log('');
+                        }
+                    } else {
+                        var mboxTrack = mboxFactoryDefault.getMboxes().get("profileParameters");
+                        if (mboxTrack.length() == 0) {
+                            var d = document.createElement("div");
+                            d.id = "mboxTrack_div";
+                            document.body.appendChild(d);
+                            mboxDefine("mboxTrack_div", "profileParameters");
+                            mboxUpdate("profileParameters", "profile.mmtid=false");
+                            mboxUpdate("profileParameters", "profile.origin=false");
+                            mboxUpdate("profileParameters", "profile.destination=false");
+                            mboxUpdate("profileParameters", "profile.travelDate=false");
+                        }
+                    }
+                } else {
+                    var mboxTrack = mboxFactoryDefault.getMboxes().get("profileParameters");
+                    if (mboxTrack.length() == 0) {
+                        var d = document.createElement("div");
+                        d.id = "mboxTrack_div";
+                        document.body.appendChild(d);
+                        mboxDefine("mboxTrack_div", "profileParameters");
+                        mboxUpdate("profileParameters", "profile.mmtid=false");
+                        mboxUpdate("profileParameters", "profile.origin=false");
+                        mboxUpdate("profileParameters", "profile.destination=false");
+                        mboxUpdate("profileParameters", "profile.travelDate=false");
+                    }
+                }
+            }
+
+        }
+
+        function jQueryIsLoaded() {
+            if (typeof jQuery !== "undefined") {
+                checkmmtDate();
+
+            } else {
+                setTimeout(jQueryIsLoaded, 50);
+            }
+        }
+        jQueryIsLoaded();
+    });mboxCurrent.loaded();mboxFactories.get('default').get('HPLP_Topbar_New',0).cancelTimeout();mboxFactories.get('default').get('HPLP_Topbar_New',0).setOffer(new mboxOfferDefault()).show();

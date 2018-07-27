@@ -1,0 +1,571 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#container {
+    width: 100%;;
+    margin: 0px auto;
+    top: 0px;
+    
+    
+}
+*{
+    box-sizing: border-box;
+}
+#container .header .logo img{
+    width: 105px;
+        margin-top: 10px;
+    margin-left: 35px;
+}
+#container .header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "lato-regular", Arial, Helvetica, sans-serif;
+        color: #4a4a4a;
+    font-weight: normal;
+    display: block;
+}
+#container ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#container .header .options ul li{
+    display: inline-block;
+        padding: 23px 7px;
+    margin-left: -4px;
+}
+#container .header .options ul .flight{
+    background-color:  #124680;
+}
+#container .header .options ul .flight a{
+    color: white
+}
+#container .header .logo{
+    float: left;
+    width: 12%;
+}
+#container .header  .options{
+    float: left;
+    width: 53%;
+}
+#container .header .options ul li:hover{
+    background-color: #124680;
+}
+#container .header .options ul li:hover a{
+    color: #ffffff;
+}
+#container .header .smalloffers ul li{
+    display: inline-block;
+    padding: 0px 3px;
+}
+#container .header .smalloffers ul li .text{
+    font-size: 10px;
+    font-family: "lato-regular", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+#container .header .smalloffers{
+    float: left;
+    width: 23%;
+}
+#container .header .smalloffers ul li .imagereward{
+margin-left: 20px;
+    
+}
+
+#container .header .smalloffers ul{
+    margin: 5px;
+}
+#container .header .account{
+    float: left;
+}
+#container .header .account li{
+    display: inline-block;
+    padding-right: 10px;
+}
+#container .header .account ul{
+    margin-top: 22px;
+}
+#container .header .account li span{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+#container .header .options .column ul li{
+    display: block;
+           padding-left: 25px;
+    
+}
+#container .header .options .column ul{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+#container .header .options .column{
+    position: absolute;
+  display: none;
+    background-color: white;
+    top: 60px;
+    left: 35pc;
+    width: 16%;
+}
+#container .header .options li:hover .column{
+    display: block;
+}
+#container .header .options .column li a{
+    color: black;
+    font-size: 18px;
+}
+
+#container .header .options ul li .column  ul li a{
+    color: black;
+}
+#container .header .options ul li .column  ul li{
+    margin-left: 0px;
+}
+#container .header .options .column li:hover{
+  background-color: gainsboro;
+}
+#container .header .smalloffers .dropdowntrips{
+    position: absolute;
+    right: 8pc;
+    top: 50px;
+    background-color: white;
+   display: none;
+            position: absolute;
+    z-index: 20;
+     box-shadow: 0 0 2px 0 rgba(0,0,0,.40);
+}
+#container .header .smalloffers .dropdowntrips ul{
+        padding-bottom: 34px;
+}
+
+#container .header .smalloffers .dropdowntrips h3{
+    color: rgba(204,204,204,1);
+    font-weight: 100;
+    font-size: 17px;
+}
+
+#container .header .smalloffers .droplist li{
+    display: block;
+    padding: 10px 0px;
+    margin-left: 15px;
+    
+    
+}
+#container .header .smalloffers .droplist ul{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+#container .header .smalloffers .dropdowntrips .color{
+    display: inline;
+    padding: 12px 28px;
+   background-color: #eb2026;
+       margin-left: 50px;
+    border: 1px solid darkred;
+}
+#container .header .smalloffers .dropdowntrips .blue{
+    color: dodgerblue;
+}
+#container .header .smalloffers .droplist{
+   padding: 38px 0px;
+    
+   
+}
+#container .header .smalloffers .droplist a{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+#container .header .smalloffers li:hover .dropdowntrips{
+    display: block;
+}
+#container .header .smalloffers  .dropdowntrips span,h3{
+    margin-left: 13px;
+}
+
+.headersec2{
+    background-color: #124680;
+/*    height: 500px;*/
+    padding: 60px 120px;
+    margin: 0px;
+}
+.headersec2 .container .multianchor span,a{
+    color:#f5f5f5;
+        font-weight: 400;
+    
+}
+.headersec2 .container .multianchor a{
+    text-decoration: none;
+     
+}
+.headersec2 .container .multianchor .way1{
+   margin-left: 23px;
+    border: 1px solid white;
+        padding: 3px 24px;
+    border-radius: 9px;
+    background-color: white;
+    color: #124680;
+     text-transform: uppercase;
+    font-size: 11px;
+}
+.headersec2 .container .multianchor .way2{
+     border: 1px solid white;
+        padding: 3px 24px;
+    border-radius: 9px;
+    margin-left: 10px;
+     text-transform: uppercase;
+    font-size: 11px;
+
+}
+.headersec2 .container .multianchor .way3{
+     border: 1px solid white;
+        padding: 3px 24px;
+    border-radius: 9px;
+     margin-left: 10px;
+ text-transform: uppercase;
+    font-size: 11px;
+}
+.headersec2 .container .passenger ul li{
+    display: inline-block;
+  
+        padding: 8px 73px;
+    padding-top: 20px;
+    padding-left: 0px;
+    border-bottom: 1px solid white;
+}
+.headersec2 .container .passenger{
+    margin-top: 30px;
+}
+.headersec2 .container .passenger ul li .first{
+    text-transform: capitalize;
+    
+}
+.headersec2 .container .passenger ul li .second{
+    text-transform: uppercase;
+}
+.headersec2 .container .passenger ul .button{
+    border: none;
+    
+        margin-left: 15px;
+    padding: 11px 28px;
+    background-color: #eb2026;
+    border: 1px solid #bc0006;
+}
+
+.section1 .flighthotels li{
+display: inline-block;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    margin-left: -2px;
+}
+
+.section1 .flighthotels{
+    padding: 62px 120px;
+}
+.section1 .flighthotels li .text{
+    padding: 23px 20px;
+}
+
+.section1 .arrow .leftarrow{
+   background-image: url(../image/left%20rrow.png);
+    border-color: gainsboro
+}
+.section1 .arrow .rightarrow{
+    background-image: url(../image/right%20arrow.png);
+    
+        right: 2%;
+}
+.section1{
+    position: relative;
+}
+.section1 .arrow .rightarrow,.leftarrow{
+    top: 30%;
+    position: absolute;
+ height: 102px;
+    width: 102px;
+}
+.mainsection{
+    background-color:  #124680;
+    padding: 70px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.mainsection .content{
+        background-color: whitesmoke;
+   padding: 10px 50px;
+        box-shadow: 0 0 5px 1px rgba(204,204,204,1);
+    border: 1px solid #e7e5e5;
+    position: relative;
+    z-index: 10;
+    border-radius: 10px;
+}
+.mainsection .content .discover .heading{
+    text-align: center;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.mainsection .content .discover .live h4{
+    border-bottom: 3px solid green;
+    text-transform: uppercase;
+}
+.mainsection .content .discover .filter a{
+    color: blue;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.mainsection .content .discover .places a, .categories a{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    border: 1px solid #f16565;
+}
+.mainsection .content .discover .places a{
+ border: 1px solid #f16565;
+    color: #f16565;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.mainsection .content .discover .places{
+    padding: 20px 0px;
+}
+.mainsection .content .discover  .categories a{
+  border: 1px solid #1095c7;
+    color:#1095c7;  
+     font-size: 12px;
+    text-transform: capitalize;
+    padding: 5px;
+    border-radius: 3px;
+}
+.mainsection .content .discover .deals1 .flightto li{
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.16);
+        margin-left: 20px;
+
+}
+.mainsection .content .discover .deals1 .flightto .complete{
+    width: 100%;
+}
+.mainsection .content .discover .deals1 .flightto .complete img{
+    width:  100%;
+}
+
+
+.mainsection .content .discover .deals1 .book{
+        padding: 14px 0px;
+}
+.mainsection .content .discover .deals1 .price{
+    padding: 15px 0px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.40);
+}
+.mainsection .content .discover .deals1 .description h5{
+    margin-bottom: 5px;
+}
+.mainsection .content .discover .deals1{
+    padding: 20px 0px;
+}
+.mainsection .content .discover .deals2 .flightto li{
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.16);
+        margin-left: 20px;
+
+}
+.mainsection .content .discover .deals2{
+    padding: 20px 0px;
+}
+.mainsection .content .discover .deals2 .flightto .complete{
+    width: 100%;
+}
+.mainsection .content .discover .deals2 .flightto .complete img{
+    width:  100%;
+}
+
+
+.mainsection .content .discover .deals2 .book{
+        padding: 14px 0px;
+}
+.mainsection .content .discover .deals2 .price{
+    padding: 15px 0px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.40);
+}
+.mainsection .content .discover .deals2 .description h5{
+    margin-bottom: 5px;
+}
+.mainsection .content .discover .deals3{
+    padding: 20px 0px;
+}
+.mainsection .content .discover .deals3 .flightto li{
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.16);
+        margin-left: 20px;
+
+}
+.mainsection .content .discover .deals3{
+    padding: 20px 0px;
+}
+.mainsection .content .discover .deals3 .flightto .complete{
+    width: 100%;
+}
+.mainsection .content .discover .deals3 .flightto .complete img{
+    width:  100%;
+}
+
+
+.mainsection .content .discover .deals3 .book{
+        padding: 14px 0px;
+}
+.mainsection .content .discover .deals3 .price{
+    padding: 15px 0px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.40);
+}
+.mainsection .content .discover .deals3 .description h5{
+    margin-bottom: 5px;
+}
+.mainsection .content .discover .deals4{
+    padding: 20px 0px;
+    
+}
+.mainsection .content .discover .deals4{
+    padding: 20px 0px;
+}
+.mainsection .content .discover .deals4 .flightto li{
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.16);
+        margin-left: 20px;
+
+}
+.mainsection .content .discover .deals4{
+    padding: 20px 0px;
+}
+.mainsection .content .discover .deals4 .flightto .complete{
+    width: 100%;
+}
+.mainsection .content .discover .deals4 .flightto .complete img{
+    width:  100%;
+}
+
+.mainsection .white_bg {
+    height: 150px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.mainsection .content .discover .deals4 .book{
+        padding: 14px 0px;
+}
+.mainsection .content .discover .deals4 .price{
+    padding: 15px 0px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.40);
+}
+.mainsection .content .discover .deals4 .description h5{
+    margin-bottom: 5px;
+}
+.mainsection .content .discover .deals4{
+    padding: 20px 0px;
+    
+}
+.load a{
+       color: seagreen;
+
+    padding: 20px;
+    border-top: 3px solid rgba(0,0,0,.16);
+    text-decoration: none;
+}
+.load{
+    text-align: center;
+    padding-top: 113px;
+    padding-bottom: 40px;
+}
+.parasection{
+        background: #e2e2e2;
+    padding: 45px;
+        margin-top: 1px;
+}
+.about{
+    padding: 58px;
+    background-color: #16355c;
+}
+.about .offering{
+    width: 47%;
+
+}
+.about .programs{
+    width: 50%;
+}
+.about a , .programs a{
+    text-decoration: none;
+}
+.about h5 , .programs h5{
+    color: white
+}
+.foot{
+    background-color: #16355c;
+    padding: 0px 200px;
+}
+.foot .pad{
+    padding: 75px 0px;
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+.foot .pad .google{
+        width: 600px;
+    margin-left: 200px;
+}
+.foot .pad  .google .info{
+    padding: 0px 30px;
+}
+.foot .pad  .google .info a{
+    text-decoration: none;
+}
+.foot .pad  .google h5{
+    color: white;
+    text-transform: uppercase;
+}
+.foot .pad  .google .image{
+    width: 260px;
+    padding-left: 20px;
+}
+.crafted{
+    background-color: #16355c;
+   padding: 40px;
+}
+.crafted .pad{
+    width: 500px;
+    margin-left: 500px;
+}
+.crafted span{
+    height: 3px;
+    width: 73px;
+        display: inline-block;
+}
+.crafted .colorborder .orange{
+    background-color: orange;
+}
+.crafted .colorborder .white{
+    background-color: white;
+    margin-left: -4px;
+}
+.crafted .colorborder .green{
+    background-color: green;
+    margin-left: -4px;
+}
+.crafted p{
+    color: white;
+}
